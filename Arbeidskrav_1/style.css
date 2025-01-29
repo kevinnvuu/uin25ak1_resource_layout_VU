@@ -6,19 +6,16 @@
     --lightblue: #58699D;
     --lightgrey: #E1E5EE;
     --darkblue: #2A324B;
-   
     --font: 'Montserrat', sans-serif;
-    --fontsize: var(--rootsize);
     --maxsize: 1200px;
 }
 
 /* Styling for body */
 body {
     background-color: var(--lightgrey);
-    font-family: var(--font);
-    font-size: var(--rootsize);
     margin: 0;
     color: #2A324B;
+    font-family: var(--font);
 }
 
 /* Styling for navigasjonsmeny */
@@ -30,14 +27,14 @@ nav {
 
 /* Styling for lenkene i navigasjonsmenyen */
 nav a {
-    display: inline-block;
-    padding: 1.2rem 4.1rem;
     color: var(--white);
     background-color: var(--darkblue);
+    display: inline-block;
+    padding: 1.2rem 4.1rem;
     text-decoration: none;
     text-align: center;
     margin-top: 115px;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 
@@ -58,23 +55,12 @@ nav ul {
 
 /* Styling for container som holder innholdet */
 #container {
+    background-color: var(--white);
     width: 74%;
     max-width: var(--maxsize);
     margin: auto;
     min-height: 330px;
     margin-top: -16px;
-    padding: 38px;
-    background-color: var(--white);
-    
+    padding: 38px;  
 }
 
-/* Styling for h1-elementer (overskrifter) */
-h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-/* Styling for p-elementer (paragrafer) */
-p { 
-   font-size: 1rem;
-}
