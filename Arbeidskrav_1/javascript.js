@@ -12,7 +12,7 @@ function showResource(category) {
                 ${resource.sources.map(({ title, url }) => `<li><a href="${url}" target="_blank">${title}</a></li>`).join('')}
             </ul>
         `)
-        .join(''); // Gjør om array til en enkel HTML-streng
+        .join(''); // Gjør om array til en enkel HTML- streng
 
     // Legg til generert HTML i containeren
     container.innerHTML = filteredResources;
