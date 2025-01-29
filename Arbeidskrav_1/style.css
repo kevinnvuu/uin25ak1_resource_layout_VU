@@ -56,8 +56,7 @@ nav ul {
 /* Styling for container som holder innholdet */
 #container {
     background-color: var(--white);
-    width: 74%;
-    max-width: var(--maxsize);
+    max-width: 1065px;
     margin: auto;
     min-height: 330px;
     margin-top: -16px;
